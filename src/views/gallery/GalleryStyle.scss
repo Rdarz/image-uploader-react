@@ -1,0 +1,28 @@
+@import 'common/styles/_colors.scss';
+
+.galleryContainer {
+  margin: 30px auto;
+  .image {
+    height: 200px;
+    display: block;
+    margin: auto;
+    background-color: #444;
+    object-fit: contain;
+  }
+  .imageContainer {
+    width: 50%;
+    margin: 0;
+    padding: 15px;
+    div {
+      border: 1px solid #eee;
+      padding: 15px;
+    }
+  }
+  h4 {
+    border-bottom: 1px solid #eee;
+    line-height: 3;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+}

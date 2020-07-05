@@ -1,0 +1,4 @@
+{
+  "baseURL": "https://api.cloudinary.com",
+  "restApiRoot": "/v1_1"
+}

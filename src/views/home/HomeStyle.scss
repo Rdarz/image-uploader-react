@@ -1,0 +1,27 @@
+@import 'common/styles/_colors.scss';
+
+.homeContainer {
+  margin: 30px auto;
+  .uploadBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    height: 500px;
+    background-color: rgba($color: #f4f4f4, $alpha: 1);
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+  }
+  .uploadButton {
+    button {
+      width: 150px;
+    }
+  }
+  .orderList {
+    padding: 0 20px;
+  }
+}
